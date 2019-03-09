@@ -2,7 +2,7 @@
 
 ## Description
 
-**Lua-LogX** is simple Lua library for calculating logarithms of any base.
+**Lua-LogX** is simple library for calculating logarithms of any base in Lua.
 
 ## Prerequisites
 
