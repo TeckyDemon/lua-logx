@@ -36,10 +36,10 @@ Move the file **logx.lua** to your project directory and include it:
 
 ## Methods
 
-| Method         | Description                               |
-| :---           | :---                                      |
-| math.log2(n)   | Returns the base **2** logarithm of **n** |
-| math.logx(n,b) | Returns the base **b** logarithm of **n** |
+| Method         | Description                                |
+| :---           | :---                                       |
+| math.log2(n)   | Returns the base **2** logarithm of **n**. |
+| math.logx(n,b) | Returns the base **b** logarithm of **n**. |
 
 ## Authors
 
