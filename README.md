@@ -30,11 +30,13 @@ Clone this repository:
 
 `$ git clone "https://github.com/DeBos99/lua-logx.git"`
 
+## Usage
+
 Move the file **logx.lua** to your project directory and include it:
 
 `require 'logx'`
 
-## Methods
+### Methods
 
 | Method         | Description                                |
 | :---           | :---                                       |
