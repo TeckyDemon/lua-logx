@@ -1,7 +1,5 @@
 # Lua-LogX
 
-## Description
-
 **Lua-LogX** is simple library for calculating logarithms of any base in Lua.
 
 ## Prerequisites
@@ -35,6 +33,8 @@ Clone this repository:
 Move the file **logx.lua** to your project directory and include it:
 
 `require 'logx'`
+
+## Documentation
 
 ### Methods
 
