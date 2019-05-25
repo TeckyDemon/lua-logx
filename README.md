@@ -1,5 +1,7 @@
 # Lua-LogX
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **Lua-LogX** is simple library for calculating logarithms of any base in Lua.
 
 ## Content
