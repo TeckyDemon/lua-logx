@@ -24,13 +24,13 @@
 ## Content
 
 - [Content](#content)
-- [Prerequisites](#prerequisites)
-  - [Windows](#windows)
-  - [Linux](#linux)
-    - [APT](#apt)
-    - [Pacman](#pacman)
-  - [MacOS](#macos)
 - [Installation](#installation)
+  - [Windows](#windows)
+  - [Unix](#unix)
+    - [Debian/Ubuntu](#apt)
+    - [Arch Linux/Manjaro](#pacman)
+    - [CentOS](#yum)
+    - [MacOS](#homebrew)
 - [Usage](#usage)
 - [Documentation](#documentation)
   - [Methods](#methods)
@@ -38,53 +38,64 @@
 - [Contact](#contact)
 - [License](#license)
 
-## Prerequisites
+## Installation
 
 ### Windows
 
-Install Lua: https://sourceforge.net/projects/luabinaries/files/5.3.5/Tools%20Executables/lua-5.3.5_Win32_bin.zip/download
-
-### Linux
-
-#### APT
-
+* Install [Lua](https://sourceforge.net/projects/luabinaries/files/5.3.5/Tools%20Executables/lua-5.3.5_Win32_bin.zip/download).
+* Run following command in the command prompt:
 ```
-sudo apt update && sudo apt upgrade -y
-sudo apt install lua5.3 -y
+git clone "https://github.com/DeBos99/lua-logx.git"
 ```
 
-#### Pacman
+### Unix
 
-```
-sudo pacman -Syu --noconfirm
-sudo pacman -S lua --noconfirm
-```
+#### <a name="APT">Debian/Ubuntu based
 
-### MacOS
-
+* Run following commands in the terminal:
 ```
-brew update && brew upgrade
-brew install lua
+sudo apt install git lua -y
+git clone "https://github.com/DeBos99/lua-logx.git"
 ```
 
-## Installation
+#### <a name="Pacman">Arch Linux/Manjaro
 
-Clone this repository:
+* Run following commands in the terminal:
+```
+sudo pacman -S git lua --noconfirm
+git clone "https://github.com/DeBos99/lua-logx.git"
+```
 
-`git clone "https://github.com/DeBos99/lua-logx.git"`
+#### <a name="YUM">CentOS
+
+* Run following commands in the terminal:
+```
+sudo yum install git lua -y
+git clone "https://github.com/DeBos99/lua-logx.git"
+```
+
+#### <a name="Homebrew">MacOS
+
+* Run following commands in the terminal:
+```
+brew install git lua
+git clone "https://github.com/DeBos99/lua-logx.git"
+```
 
 ## Usage
 
-Move the file **logx.lua** to your project directory and include it:
-
-`require 'logx'`
+* Move the file [logx.lua](logx.lua) to your project directory.
+* Add following line at the top of your source file:
+```
+require 'logx'
+```
 
 ## Documentation
 
 ### Methods
 
 | Method         | Description                                |
-| :---           | :---                                       |
+| :------------- | :----------------------------------------- |
 | math.log2(n)   | Returns the base **2** logarithm of **n**. |
 | math.logx(n,b) | Returns the base **b** logarithm of **n**. |
 
